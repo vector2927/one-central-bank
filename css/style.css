@@ -1,0 +1,83 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height:3000px;
+    
+}
+.bg-color{
+    background-color: #ffffff;
+}
+.dunno{
+    background-color: black;
+    height:4em;
+    width:100%;
+
+}
+.nav-bg{
+   
+    height:4em;
+    display: block;
+    z-index: 9;
+    background-color: rgb(39, 99, 152);
+}
+.tdn{
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #04164c;
+    height: auto;
+    
+    
+    border-radius:1em;
+    margin-top: 4em;
+    z-index: 10;
+    width: 90%;
+    
+}
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  }
+
+.navbar-logo {
+    width : 2.5em;
+    height : auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    padding:0;
+}
+
+.navbar-nav {
+    position: relative;
+    left: auto;
+    right:0;
+}
+
+.img-crs1 {
+    background-image: url("/images/crsl-1.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:contain; 
+    
+}
+
+.img-crs2 {
+    background-image: url("images/crsl-2.jpg");
+}
+
+.img-crs3 {
+    background-image: url("images/crsl-3.jpg");
+}
+
+.card-text{
+    font-size: 0.8em;
+    
+}
+
