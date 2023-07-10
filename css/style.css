@@ -1,5 +1,5 @@
 body {
-    box-sizing: border-box;
+   
     margin: 0;
     padding: 0;
     
@@ -86,4 +86,9 @@ body {
     background: linear-gradient(48deg, rgba(115,211,238,1) 24%, rgba(207,241,247,1) 100%);
     height: 200px; 
     width:200px;
+}
+
+.bg-company {
+    
+    background : #04164c;
 }
