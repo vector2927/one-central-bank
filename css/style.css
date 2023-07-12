@@ -23,6 +23,7 @@ body {
 }
 .tdn{
     text-decoration: none;
+    color:#ffffff;
 }
 
 .navbar {
@@ -91,4 +92,8 @@ body {
 .bg-company {
     
     background : #04164c;
+}
+
+.nlbg {
+    background-color: rgba(191, 213, 235, 0.50);
 }
